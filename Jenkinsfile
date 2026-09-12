@@ -36,7 +36,7 @@ pipeline
                 sh "mvn clean package"
             }
         }
-
+//end build
         stage('Execute SonarQube Report')
         {
             steps()
