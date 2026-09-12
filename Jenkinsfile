@@ -36,7 +36,7 @@ pipeline
                 sh "mvn clean package"
             }
         }
-// code end
+// code endgit statgit  add srvsvvvv
         stage('Execute SonarQube Report')
         {
             steps()
