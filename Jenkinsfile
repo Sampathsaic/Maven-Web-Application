@@ -1,7 +1,7 @@
 pipeline
 {
     agent any
-
+// git tools starting
     tools
     {
         maven 'Maven_3.8.2'
@@ -36,7 +36,7 @@ pipeline
                 sh "mvn clean package"
             }
         }
-//end build
+// code end
         stage('Execute SonarQube Report')
         {
             steps()
